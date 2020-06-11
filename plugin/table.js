@@ -18,9 +18,9 @@ class Table {
                 container: this.tfoot,
                 ...this.options.pageOptions
             })
-            this.pager.total = val;
-            this.pager.render();
         }
+        this.pager.total = val;
+        this.pager.render();
     }
 
     get dataSource() {
